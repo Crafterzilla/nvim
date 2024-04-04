@@ -49,6 +49,9 @@ local plugins = {
         end
     },
 
+    -- Java autocomplete
+    {'mfussenegger/nvim-jdtls'},
+
     -- Comment out lines with gcc and gc
     {'tpope/vim-commentary'},
 
