@@ -66,7 +66,7 @@ local plugins = {
     {'tpope/vim-obsession'},
 
     -- DAP for Nvim
-    {"rcarriga/nvim-dap-ui", dependencies = {"mfussenegger/nvim-dap"}},
+    {"rcarriga/nvim-dap-ui", dependencies = {"mfussenegger/nvim-dap", "nvim-neotest/nvim-nio"}},
 
     --Arduino Integration
     {'stevearc/vim-arduino'},
